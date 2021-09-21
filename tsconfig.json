@@ -1,0 +1,40 @@
+{
+  "compileroptions": {
+    "target": "es5",
+    "static": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+    ],
+    "allowjs": true,
+    // 忽略.d.ts类型检查
+    "skiplibcheck": true,
+    // 配合allowsyntheticdefaultimports 
+    "esmoduleinterop": true,
+    // 允许没有默认导出的文件
+    "allowsyntheticdefaultimports": true,
+    // this类型检查 否则会被看作未any
+    "strict": true,
+    // 禁止对同一个文件的不一致的引用。
+    "forceconsistentcasinginfilenames": true,
+    // 不允许switch的case语句贯穿
+    "nofallthroughcasesinswitch": true,
+    // 指定生成哪个模块系统代码
+    "module": "esnext",
+    // 模块解析方式 classic AMD ES2015 System 
+    // "moduleresolution": "node",
+    // 可以从json文件中导入
+    "resolvejsonmodule": true,
+    // 将每个文件作为单独的模块
+    "isolatedmodules": true,
+    // 不允许隐式的any
+    "noImplicitAny": true,
+    // 允许使用装饰器
+    "experimentalDecorators": true,
+    // 不生成输出文件
+    "noemit": true,
+    "jsx": "react-jsx"
+  },
+  "exclude": ["node_modules"]
+}
