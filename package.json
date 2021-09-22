@@ -8,8 +8,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "im:start": "npx lerna run im:start --stream"
+    "im:start": "npx lerna run im:start --stream",
+    "server:start": "npx lerna run server:start --stream"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
