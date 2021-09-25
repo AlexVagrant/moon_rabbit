@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "im:start": "npx lerna run im:start --stream",
+    "app:start": "npx lerna run app:start --stream",
     "server:start": "npx lerna run server:start --stream"
   },
   "workspaces": [
