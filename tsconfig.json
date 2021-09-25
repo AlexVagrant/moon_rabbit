@@ -13,6 +13,8 @@
     "esModuleInterop": true,
     // 允许没有默认导出的文件
     "allowSyntheticDefaultImports": true,
+    // 允许不能访问的代码
+    "allowUnreachableCode": false,
     // this类型检查 否则会被看作未any
     "strict": true,
     // 禁止对同一个文件的不一致的引用。
@@ -29,6 +31,8 @@
     "noImplicitAny": true,
     // 允许使用装饰器
     "experimentalDecorators": true,
+    // 没有没有使用的参数
+    "noUnusedParameters": true,
     // 不生成输出文件
     "noEmit": true,
     "jsx": "react-jsx"
